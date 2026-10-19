@@ -68,3 +68,24 @@ python3 zune_batch.py "/path/AlbumA" "/path/AlbumB" "/path/AlbumC"
 - `zune_add.py` — the CLI orchestrator
 - `zunelib.py`  — device control, MusicBrainz/CAA lookup, conversion, tagging
 - `zune_batch.py` — add multiple album folders in one run
+
+## Documentation
+
+A landing page and full docs live alongside the code:
+
+- **[index.html](index.html)** — project landing page (open it in a browser).
+- **[docs/installation.md](docs/installation.md)** — Linux setup: XuneSyncLibrary, MTPZ keys, mutagen, USB.
+- **[docs/user-guide.md](docs/user-guide.md)** — the full workflow, every option, de-dup, batching, troubleshooting.
+- **[docs/architecture.md](docs/architecture.md)** — module map, the pipeline, and the device-safety rules.
+
+## Support
+
+zune-manager is a free, open-source side project — a way to keep a discontinued
+device genuinely useful. If it saved you an afternoon of fighting MTP and tag
+editors, you can support development via:
+
+- **GitHub Sponsors** — https://github.com/sponsors/mnavas
+- **PayPal** — https://paypal.me/warionv
+- **De Una · Banco Pichincha** — scan [`assets/deuna-qr.png`](assets/deuna-qr.png) with your banking app (Ecuador)
+
+The support options are also on the [landing page](index.html). ¡Gracias!
